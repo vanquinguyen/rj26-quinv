@@ -1,0 +1,52 @@
+
+
+.container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.item {
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    text-align: left;
+}
+
+.content h4 {
+    color: #ccc;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.content h3 {
+    color: blue;
+    font-weight: 500;
+}
+
+.content .icon {
+    display: flex;
+    align-items: center;
+}
+
+.content .icon p{
+    color: rgb(255, 174, 0);
+}
+
+.content .icon p:nth-child(5){
+    color: black;
+}
+
+.content .icon p:nth-child(6){
+    color: initial;
+}
+

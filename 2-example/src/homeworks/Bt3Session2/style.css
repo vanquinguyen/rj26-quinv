@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item {
+    width: 450px;
+    height: auto;
+    padding: 10px;
+}
+
+.item__img {
+    width: 420px;
+    height: 300px;
+}
+
+.item__img img {
+    height: 100%;
+    width: 100%;
+}
+
+.item__content{
+    width: 400px;
+}
+
+.item__content h3{
+   font-size: 24px;
+   
+}
