@@ -11,6 +11,12 @@ import BaiTap2 from "./homeworks/Bt2Session2/BaiTap2";
 import BaiTap3 from "./homeworks/Bt3Session2/BaiTap3";
 import BlockUi3 from "./homeworks/block_ui_3-Session2/BlockUi3";
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import BtnLike from "./homeworks/Session3/BtnLike";
+import BtnRating from "./homeworks/Session3/BtnRating";
+import Carosel from "./homeworks/Session3/Carosel";
+import Bt1 from "./homeworks/Session5/basic2/Bt1";
+import SimpleForm from "./homeworks/Session6/SimpleForm";
+import Formik from "./homeworks/Session6/Formik";
 
 
 // function App() {
@@ -124,12 +130,18 @@ function App() {
     // <BaiTap1 title={"Clothing & Apparel"} name={"accessories"} product={"bags"} gen={"Kid's Fashion"} sex={"Mens"}/>
     // <BaiTap2 store="Young Shop" product="SamSung UHD TV 24inch" feedback="02" price="$599" />
     // <BaiTap3 type="Technology" name="Harman Kadon Onyx Studio Mini, Review and Experiences" time="Feb 21, 2021" author="drfurion"/>
-    <div className="block3" style={{display: "flex", gap: "10px", justifyContent: "center", marginTop: "30px"}}>
-        <BlockUi3 name="Facebook" color="rgb(97, 156, 236)" icon="fa-brands fa-facebook-f" votes="5,000,000 Likes"/>
-        <BlockUi3 name="Twitter" color="rgb(49, 200, 221)" icon="fa-brands fa-twitter" votes="40,000 Tweets"/>
-        <BlockUi3 name="Google +" color="rgb(247, 129, 83)" icon="fa-brands fa-google-plus-g" votes="4,60,000 Plus"/>
-        <BlockUi3 name="Pinterest" color="rgb(247, 83, 84)" icon="fa-brands fa-pinterest" votes="34,000 Pins"/>
-    </div>
+    // <div className="block3" style={{display: "flex", gap: "10px", justifyContent: "center", marginTop: "30px"}}>
+    //     <BlockUi3 name="Facebook" color="rgb(97, 156, 236)" icon="fa-brands fa-facebook-f" votes="5,000,000 Likes"/>
+    //     <BlockUi3 name="Twitter" color="rgb(49, 200, 221)" icon="fa-brands fa-twitter" votes="40,000 Tweets"/>
+    //     <BlockUi3 name="Google +" color="rgb(247, 129, 83)" icon="fa-brands fa-google-plus-g" votes="4,60,000 Plus"/>
+    //     <BlockUi3 name="Pinterest" color="rgb(247, 83, 84)" icon="fa-brands fa-pinterest" votes="34,000 Pins"/>
+    // </div>
+    // <BtnLike/>
+    // <BtnRating/>
+    // <Carosel/>
+    // <Bt1/>
+    // <SimpleForm/>
+    <Formik/>
     );
 }
 
