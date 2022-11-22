@@ -17,6 +17,11 @@ import Carosel from "./homeworks/Session3/Carosel";
 import Bt1 from "./homeworks/Session5/basic2/Bt1";
 import SimpleForm from "./homeworks/Session6/SimpleForm";
 import Formik from "./homeworks/Session6/Formik";
+import ListUser from "./homeworks/Session7/ListUser";
+import Form from "./homeworks/Session7/FormUser";
+import FormUser from "./homeworks/Session7/FormUser";
+import Detail from "./homeworks/Session7/Detail";
+import ReactRouter from "./homeworks/Session8/ReactRouter";
 
 
 // function App() {
@@ -141,7 +146,11 @@ function App() {
     // <Carosel/>
     // <Bt1/>
     // <SimpleForm/>
-    <Formik/>
+    // <Formik/>
+    // <ListUser/>
+    // <FormUser/>
+    // <Detail/>
+    <ReactRouter/>
     );
 }
 

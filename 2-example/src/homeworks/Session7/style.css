@@ -1,0 +1,20 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table {
+    width: 400px !important;
+    margin: auto;
+}
+
+.setWidth {
+    width: 200px;
+}
+
+.avatar {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
