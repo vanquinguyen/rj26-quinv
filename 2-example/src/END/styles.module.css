@@ -1,0 +1,29 @@
+.navigation {
+  margin: 0;
+  padding: 40px;
+  background: linear-gradient(90deg, rgba(141,194,111,1) 0%, rgba(118,184,82,1) 50%);
+  box-sizing: border-box;
+  list-style: none;
+  display: flex;
+  height: 60px;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 40px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.link a {
+  font-weight: 600;
+  text-decoration: none;
+  color: aliceblue;
+}
